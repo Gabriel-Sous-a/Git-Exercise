@@ -1,0 +1,21 @@
+    Exercise 2: Filtering with Predicate
+Create a functional interface named Filter that defines an abstract method accept
+which takes an object of some type and returns a boolean value. Then, create a class
+Filterer that has a method filter which takes a list of objects and an instance of
+Filter to filter the objects based on the criteria defined by the Filter.
+(The criteria can be anything, so for starters you could receive a List<String> strings
+and filter by the length of each string, only accepting strings with length < 5.)
+    Exercise 3: Transformation with Function
+Create a functional interface named Transformation that defines an abstract method transform
+which takes a String and returns the length of that string. Then, create a class Transformer
+that has a method applyTransformation which takes a list of strings and an instance of
+Transformation to transform the objects according to the logic defined by the Transformation.
+    Exercise 4: Consumption with Consumer
+Create a functional interface named Action that defines an abstract method execute which takes
+a String and prints it. Then, create a class Executor that has a method executeAction which
+takes a list of strings and an instance of Action to execute the action on each string in the list.
+    Exercise 5: Providing with Supplier
+Create a functional interface named Generator that defines an abstract method generate which
+takes no arguments and returns an object of some type. Then, create a class Producer that has
+ a method produce which takes an instance of Generator and a number, and uses the Generator to
+ produce a list of objects. (Not gonna specify what you can do you this one, be creative)
